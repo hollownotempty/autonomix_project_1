@@ -14,7 +14,10 @@ body {
 }
 
 header {
-    /* background-color: aqua; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgba(22, 43, 63, .8);
 }
 
 .flex-container {
@@ -33,4 +36,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: white;
+}
+
+section {
+    text-align: center;
+}
+
+section h2 {
+    font-family: 'Open-sans', sans-serif;
+    margin-top: 200px;
+}
+
+section hr {
+    width: 382px;
+    margin: 0 auto;
 }
