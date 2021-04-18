@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #162b3f;
+    color: white;
+}
+
+header {
+    /* background-color: aqua; */
+}
+
+.flex-container {
+    display: flex;
+    height: 100px;
+    justify-content: space-around;
+    padding: 18px 0;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
