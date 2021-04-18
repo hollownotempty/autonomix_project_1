@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap');
 
+
+/*colors*/
+:root {
+    --primary: #162b3f;
+    --secondary: #00f400;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,15 +16,18 @@
 }
 
 body {
-    background-color: #162b3f;
+    background-color: var(--primary);
     color: white;
 }
-
+ 
+/* header stylings */
 header {
     position: sticky;
     top: 0;
     left: 0;
-    background-color: rgba(22, 43, 63, .8);
+    
+    /* code to make content fade as it scrolls past the header */
+    background-image: linear-gradient(to top, rgba(22, 43, 63, .1) 0%, rgba(22, 43, 63, 1) 95%);
 }
 
 .flex-container {
@@ -38,6 +48,8 @@ nav a {
     color: white;
 }
 
+
+/* hero section stylings */
 .hero-section {
     height: 500px;
     text-align: center;
@@ -53,8 +65,10 @@ section hr {
     margin: 0 auto;
 }
 
+
+/* what is mixing stylings */
 .what-is-mixing {
-    background-color: #00f400;
+    background-color: var(--secondary);
     color: black;
     height: 500px;
 }
