@@ -38,16 +38,35 @@ nav a {
     color: white;
 }
 
-section {
+.hero-section {
+    height: 500px;
     text-align: center;
 }
 
-section h2 {
+.hero-section h2 {
     font-family: 'Open-sans', sans-serif;
-    margin-top: 200px;
+    margin-top: 300px;
 }
 
 section hr {
     width: 382px;
     margin: 0 auto;
+}
+
+.what-is-mixing {
+    background-color: #00f400;
+    color: black;
+    height: 500px;
+}
+
+.mixing-heading {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.mix-info p {
+    width: 500px;
+    margin-top: 250px;
+    text-align: justify;
+    line-height: 1.5em;
 }
