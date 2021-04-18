@@ -43,9 +43,9 @@ nav li {
     padding-left: 10px;
 }
 
-nav a {
-    text-decoration: none;
+header a {
     color: white;
+    text-decoration: none;
     border-bottom: none;
 }
 
@@ -80,7 +80,7 @@ section hr {
 
 .mixing-heading {
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .flex-container-two {
