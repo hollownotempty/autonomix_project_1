@@ -56,13 +56,13 @@ nav a:hover {
 
 /* hero section stylings */
 .hero-section {
-    height: 500px;
+    height: 400px;
     text-align: center;
 }
 
 .hero-section h2 {
     font-family: 'Open-sans', sans-serif;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 section hr {
@@ -100,6 +100,7 @@ section hr {
 img {
     margin-left: 20px;
     width: 500px;
+    box-shadow: 10px 10px #40536a;
 }
 
 .learn-section {
@@ -126,7 +127,7 @@ img {
     border-radius: 50%;
     text-align: center;
     line-height: 330px;
-    margin-top: 30px;
+    margin: 100px 0;
 }
 
 .btn-one {
@@ -136,10 +137,10 @@ img {
 
 .btn-two {
     background-image: url(../images/pro-q-3-screenshot.jpg);
-    background-size: 500px;
+    background-size: 650px;
     background-position: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .btn-three {
@@ -155,4 +156,15 @@ img {
 
 .btn a:hover {
     border-bottom: 2px white solid;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 30px auto 0 auto;
+}
+
+.form-field + label {
+    margin-top: 10px;
 }
