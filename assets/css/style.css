@@ -15,6 +15,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#page-container {
+    position: relative;
+}
+
 body {
     background-color: var(--primary);
     color: white;
@@ -116,6 +120,7 @@ img {
 .learn--buttons {
     display: flex;
     justify-content: center;
+    margin: 20px 0;
 }
 
 .btn {
@@ -127,7 +132,6 @@ img {
     border-radius: 50%;
     text-align: center;
     line-height: 330px;
-    margin: 100px 0;
 }
 
 .btn-one {
@@ -158,13 +162,24 @@ img {
     border-bottom: 2px white solid;
 }
 
+/* contact page styles */
 .contact-form {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 666px;
     margin: 30px auto 0 auto;
+    padding: 15px;
+    border: 2px white solid;
 }
 
 .form-field + label {
     margin-top: 10px;
+}
+
+footer {
+    background-color: #40536a;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
 }
