@@ -85,22 +85,74 @@ section hr {
 
 .flex-container-two {
     display: flex;
-    height: 100px;
     justify-content: center;
-    padding: 18px 0;
-    align-items: center;
+    padding: 40px 0;
 }
 
 .mix-info p {
     width: 500px;
-    margin-top: 350px;
     margin-right: 20px;
     text-align: justify;
     line-height: 2.2em;
+    max-height: 350px;
 }
 
 img {
-    margin-top: 350px;
     margin-left: 20px;
     width: 500px;
+}
+
+.learn-section {
+    background-color: var(--primary);
+    height: 400px;
+    text-align: center;
+}
+
+.learn-section h2 {
+    margin-top: 20px;
+}
+
+.learn--buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    font-size: 2em;
+    text-transform: uppercase;
+    width: 330px;
+    height: 330px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 330px;
+    margin-top: 30px;
+}
+
+.btn-one {
+    background-image: url(../images/anthony-roberts-82wJ10pX1Fw-unsplash.jpg);
+    background-size: cover;
+}
+
+.btn-two {
+    background-image: url(../images/pro-q-3-screenshot.jpg);
+    background-size: 500px;
+    background-position: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.btn-three {
+    background-image: url(../images/caught-in-joy--bgmGy8f1p0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn a:hover {
+    border-bottom: 2px white solid;
 }
