@@ -104,6 +104,7 @@ section hr {
 .mix-info img {
     margin-left: 20px;
     width: 500px;
+    border-radius: 30px;
     box-shadow: 10px 10px #40536a;
 }
 
@@ -212,6 +213,7 @@ footer {
 .eq-info img {
     margin-left: 20px;
     width: 500px;
+    border-radius: 30px;
     box-shadow: 10px 10px #40536a;
 }
 
@@ -243,4 +245,119 @@ footer {
 
 .how-to-use-eq li {
     list-style-type: circle;
+}
+
+/* compression page stylings */
+.what-is-compression {
+    background-color: var(--primary);
+    color: white;
+    height: 500px;
+}
+
+.compression-heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.flex-container-two {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.compression-info p {
+    width: 500px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 2.2em;
+    max-height: 350px;
+}
+
+.compression-info img {
+    margin-left: 20px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 10px 10px #40536a;
+}
+
+.how-to-use-compression {
+    height: 500px;
+    background-color: var(--secondary);
+    color: black;
+    line-height: 2.2em;
+}
+
+.how-to-use-compression h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.how-to-use-compression p {
+    width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.how-to-use-compression ul {
+    width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.how-to-use-compression li {
+    list-style-type: circle;
+}
+
+
+/* balance page stylings */
+.what-is-balance {
+    background-color: var(--primary);
+    color: white;
+    height: 500px;
+}
+
+.balance-heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.flex-container-two {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.balance-info p {
+    width: 500px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 2.2em;
+    max-height: 350px;
+}
+
+.balance-info img {
+    margin-left: 20px;
+    width: 500px;
+    box-shadow: 10px 10px #40536a;
+}
+
+.how-to-use-balance {
+    height: 500px;
+    background-color: var(--secondary);
+    color: black;
+    line-height: 2.2em;
+}
+
+.how-to-use-balance h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.how-to-use-balance p {
+    width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: justify;
 }
