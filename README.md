@@ -21,6 +21,11 @@ The wireframes for Autonomix can be viewed [here](https://www.dropbox.com/s/2ybo
 
 # Technologies Used
 
+ - HTML
+    - HTML was used for the structure of the site.
+ - CSS
+    - CSS was used to style the site.
+
 # Testing
 
 # Deployment
