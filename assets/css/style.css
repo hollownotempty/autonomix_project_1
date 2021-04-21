@@ -127,7 +127,7 @@ section hr {
 .btn {
     font-size: 2em;
     text-transform: uppercase;
-    width: 330px;
+    min-width: 330px;
     height: 330px;
     background-color: var(--secondary);
     border-radius: 50%;
