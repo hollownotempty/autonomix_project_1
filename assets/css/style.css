@@ -214,3 +214,33 @@ footer {
     width: 500px;
     box-shadow: 10px 10px #40536a;
 }
+
+.how-to-use-eq {
+    height: 500px;
+    background-color: var(--secondary);
+    color: black;
+    line-height: 2.2em;
+}
+
+.how-to-use-eq h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.how-to-use-eq p {
+    width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.how-to-use-eq ul {
+    width: 1000px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.how-to-use-eq li {
+    list-style-type: circle;
+}
