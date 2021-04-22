@@ -187,6 +187,16 @@ footer a:hover {
     width: 666px;
     margin: 30px auto 0 auto;
     padding: 15px;
+    align-items: center;
+}
+
+.contact-form .form-field {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.form-btn {
+    width: 33%;
 }
 
 /* input {
