@@ -253,14 +253,14 @@ footer a:hover {
 }
 
 .how-to-use-eq p {
-    width: 1000px;
+    width: 70%;
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
 }
 
 .how-to-use-eq ul {
-    width: 1000px;
+    width: 70%;
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
@@ -428,9 +428,22 @@ footer a:hover {
         margin: 0 auto 40px auto;
     }
 
+    .what-is-eq {
+        height: 100%;
+        text-align: center;
+    }
+
+    .what-is-eq p {
+        width: 70%;
+        margin: 0 auto 40px auto;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    header {
+        position: relative;
+    }
+
     .flex-container {
         flex-direction: column;
     }
@@ -454,6 +467,15 @@ footer a:hover {
     }
 
     .how-to-use-balance {
+        height: 100%;
+    }
+
+    .what-is-eq {
+        height: 100%;
+        text-align: center;
+    }
+
+    .how-to-use-eq {
         height: 100%;
     }
 }
