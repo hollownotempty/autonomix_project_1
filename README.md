@@ -28,6 +28,20 @@ The wireframes for Autonomix can be viewed [here](https://www.dropbox.com/s/2ybo
 
 # Testing
 
+Simple testing was done by viewing the site across different browsers and devices to make sure that the site did not break on any platforms.
+
+## Browsers
+
+- Chrome
+- Firefox
+- Brave
+- Safari
+
+## Devices
+
+- ACER Computer monitor
+- iPhone 11
+
 # Deployment
 
 # Credits 
