@@ -23,6 +23,10 @@ body {
     background-color: var(--primary);
     color: white;
 }
+
+h1, h2, h3 {
+    font-family: 'Open-sans', sans-serif;
+}
  
 /* header stylings */
 header {
@@ -219,18 +223,11 @@ footer a:hover {
     padding-top: 20px;
 }
 
-.flex-container-two {
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
-}
-
 .eq-info p {
     width: 500px;
     margin-right: 20px;
     text-align: justify;
     line-height: 2.2em;
-    max-height: 350px;
 }
 
 .eq-info img {
@@ -254,8 +251,7 @@ footer a:hover {
 
 .how-to-use-eq p {
     width: 70%;
-    padding-top: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
     text-align: justify;
 }
 
@@ -280,12 +276,6 @@ footer a:hover {
 .compression-heading {
     text-align: center;
     padding-top: 20px;
-}
-
-.flex-container-two {
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
 }
 
 .compression-info p {
@@ -343,12 +333,6 @@ footer a:hover {
 .balance-heading {
     text-align: center;
     padding-top: 20px;
-}
-
-.flex-container-two {
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
 }
 
 .balance-info p {
@@ -434,7 +418,7 @@ footer a:hover {
 
     .what-is-eq p {
         width: 70%;
-        margin: 0 auto 40px auto;
+        margin: 0 auto 0 auto;
     }
 
     .what-is-compression {
@@ -455,6 +439,10 @@ footer a:hover {
 
     .flex-container {
         flex-direction: column;
+    }
+
+    nav li {
+        padding: 0 5px;
     }
 
     .what-is-mixing {
