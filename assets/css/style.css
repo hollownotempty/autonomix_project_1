@@ -405,7 +405,7 @@ footer a:hover {
     }
 
     .learn-section {
-        height: 1100px;
+        height: 100%;
     }
     
     .learn--buttons {
@@ -464,6 +464,13 @@ footer a:hover {
 
     .flex-container-two img {
         display: none;
+    }
+
+    .btn {
+        font-size: 1.5rem;
+        min-width: 200px;
+        height: 200px;
+        line-height: 200px;
     }
 
     .contact-form {
