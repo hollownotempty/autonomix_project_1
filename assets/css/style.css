@@ -293,7 +293,6 @@ footer a:hover {
     margin-right: 20px;
     text-align: justify;
     line-height: 2.2em;
-    max-height: 350px;
 }
 
 .compression-info img {
@@ -316,14 +315,14 @@ footer a:hover {
 }
 
 .how-to-use-compression p {
-    width: 1000px;
+    width: 70%;
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
 }
 
 .how-to-use-compression ul {
-    width: 1000px;
+    width: 70%;
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
@@ -437,6 +436,16 @@ footer a:hover {
         width: 70%;
         margin: 0 auto 40px auto;
     }
+
+    .what-is-compression {
+        height: 100%;
+        text-align: center;
+    }
+
+    .what-is-compression p {
+        width: 70%;
+        margin: 0 auto 40px auto;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -477,5 +486,22 @@ footer a:hover {
 
     .how-to-use-eq {
         height: 100%;
+    }
+    
+    .how-to-use-eq ul {
+        text-align: left;
+    }
+
+    .what-is-compression {
+        height: 100%;
+        text-align: center;
+    }
+
+    .how-to-use-compression {
+        height: 100%;
+    }
+    
+    .how-to-use-compression ul {
+        text-align: left;
     }
 }
