@@ -36,7 +36,13 @@ header {
 
 .flex-container {
     display: flex;
-    height: 100px;
+    justify-content: space-around;
+    padding: 18px 0;
+    align-items: center;
+}
+
+.nav-flex-container {
+    display: flex;
     justify-content: space-around;
     padding: 18px 0;
     align-items: center;
@@ -98,7 +104,6 @@ section hr {
     margin-right: 20px;
     text-align: justify;
     line-height: 2.2em;
-    max-height: 350px;
 }
 
 .mix-info img {
@@ -131,7 +136,6 @@ section hr {
     height: 330px;
     background-color: var(--secondary);
     border-radius: 50%;
-    text-align: center;
     line-height: 330px;
 }
 
@@ -379,4 +383,54 @@ footer a:hover {
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
+}
+
+
+
+
+@media screen and (max-width: 1130px){
+
+    /* home page media queries */
+    .what-is-mixing {
+        height: 800px;
+        text-align: center;
+    }
+
+    .what-is-mixing p {
+        width: 70%;
+        margin: 0 auto 40px auto;
+    }
+    
+    .flex-container-two {
+        display: block;
+    }
+
+    .learn-section {
+        height: 1100px;
+    }
+    
+    .learn--buttons {
+        display: block;
+    }
+
+    .btn {
+        width: 100px;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .what-is-mixing {
+        height: 100%;
+        text-align: center;
+    }
+
+    .flex-container-two img {
+        display: none;
+    }
+
 }
