@@ -367,7 +367,7 @@ footer a:hover {
 }
 
 .how-to-use-balance {
-    height: 500px;
+    height: 300px;
     background-color: var(--secondary);
     color: black;
     line-height: 2.2em;
@@ -379,7 +379,7 @@ footer a:hover {
 }
 
 .how-to-use-balance p {
-    width: 1000px;
+    width: 70%;
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
@@ -417,6 +417,17 @@ footer a:hover {
         width: 100px;
         margin: 10px auto;
     }
+
+    .what-is-balance {
+        height: 100%;
+        text-align: center;
+    }
+
+    .what-is-balance p {
+        width: 70%;
+        margin: 0 auto 40px auto;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -433,4 +444,16 @@ footer a:hover {
         display: none;
     }
 
+    .contact-form {
+        width: 80%;
+    }
+
+    .what-is-balance {
+        height: 100%;
+        text-align: center;
+    }
+
+    .how-to-use-balance {
+        height: 100%;
+    }
 }
