@@ -198,14 +198,23 @@ footer a:hover {
     align-items: center;
 }
 
-.contact-form .form-field {
+input[type="text"], input[type="email"], textarea {
     margin: 5px 0;
     width: 100%;
 }
 
-.form-btn {
+input[type="submit"], input[type="reset"] {
     width: 33%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 15px;
 }
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
 
 /* input {
     margin-top: 10px;

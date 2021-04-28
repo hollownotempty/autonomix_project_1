@@ -36,6 +36,7 @@ Simple testing was done by viewing the site across different browsers and device
 - Firefox
 - Brave
 - Safari
+- Opera
 
 ## Devices
 
