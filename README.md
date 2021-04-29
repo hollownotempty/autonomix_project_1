@@ -46,3 +46,17 @@ Simple testing was done by viewing the site across different browsers and device
 # Deployment
 
 # Credits 
+
+## Content
+
+- Info for the different articles was sourced from [Izotope](https://www.izotope.com/en/learn.html)
+- Box shadow CSS tricks were learned from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
+
+## Media 
+
+- All images sourced from [Unsplash](https://unsplash.com/) and [Ableton's website](https://ableton.com).
+
+## Acknowledgements 
+
+- This project was inspired by [URM](https://urm.academy/) and [Izotope](https://www.izotope.com/en/learn.html). 
+- Layout was inspired by 
