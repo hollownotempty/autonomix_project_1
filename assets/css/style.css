@@ -190,6 +190,31 @@ footer a:hover {
     color: #999999;
 }
 
+.page-navigation {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+}
+
+.dummy-nav {
+    display: none;
+}
+
+.page-navigation a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-size: 1.5rem;
+}
+
+.page-navigation a:hover {
+    border-bottom: 2px var(--secondary) solid;
+}
+
+.page-navigation a:visited {
+    color: var(--secondary);
+}
+
 /* contact page styles */
 .contact-form {
     display: flex;

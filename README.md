@@ -15,16 +15,16 @@ The layout for Autonomix is simple, starting with a landing page with basic info
 - As a user, I want to find specific techniques inside the site, so I can focus on the topics that I don’t understand as well as others.
 - As a user, I want video explanations/examples, so I can hear and see the techniques in action to assist my learning.
 
-The wireframes for Autonomix can be viewed [here](https://www.dropbox.com/s/2ybowtp4rlgvrix/autonomix_wireframes.pdf?dl=0)
+The wireframes for Autonomix can be viewed [here](https://www.dropbox.com/s/2ybowtp4rlgvrix/autonomix_wireframes.pdf?dl=0).
 
 # Features
 
 # Technologies Used
 
- - HTML
-    - HTML was used for the structure of the site.
- - CSS
-    - CSS was used to style the site.
+- HTML
+   - HTML was used for the structure of the site.
+- CSS
+   - CSS was used to style the site.
 
 # Testing
 
@@ -42,6 +42,7 @@ Simple testing was done by viewing the site across different browsers and device
 
 - ACER Computer monitor
 - iPhone 11
+- Macbook Pro 2018
 
 # Deployment
 
@@ -59,4 +60,3 @@ Simple testing was done by viewing the site across different browsers and device
 ## Acknowledgements 
 
 - This project was inspired by [URM](https://urm.academy/) and [Izotope](https://www.izotope.com/en/learn.html). 
-- Layout was inspired by 
