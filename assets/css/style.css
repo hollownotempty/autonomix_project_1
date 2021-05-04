@@ -308,6 +308,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
 .video-section iframe {
     padding-top: 20px;
+    border: none;
 }
 
 /* compression page stylings */
@@ -337,7 +338,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 }
 
 .how-to-use-compression {
-    height: 500px;
     background-color: var(--secondary);
     color: black;
     line-height: 2.2em;
