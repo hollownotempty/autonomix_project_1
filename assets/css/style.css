@@ -143,6 +143,7 @@ section hr {
     background-color: var(--secondary);
     border-radius: 50%;
     line-height: 330px;
+
 }
 
 .btn-one {
@@ -195,10 +196,6 @@ footer a:hover {
     display: flex;
     justify-content: space-around;
     padding: 10px 10px;
-}
-
-.dummy-nav {
-    display: none;
 }
 
 .page-navigation a {
@@ -274,7 +271,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 }
 
 .how-to-use-eq {
-    height: 500px;
     background-color: var(--secondary);
     color: black;
     line-height: 2.2em;
@@ -300,6 +296,18 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
 .how-to-use-eq li {
     list-style-type: circle;
+}
+
+.video-section {
+    text-align: center;
+}
+
+.video-section {
+    padding-top: 20px;
+}
+
+.video-section iframe {
+    padding-top: 20px;
 }
 
 /* compression page stylings */
@@ -386,7 +394,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 }
 
 .how-to-use-balance {
-    height: 300px;
+    height: 100%;
     background-color: var(--secondary);
     color: black;
     line-height: 2.2em;
@@ -499,6 +507,10 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
     .contact-form {
         width: 80%;
+    }
+
+    .video-section iframe {
+        width: 90%;
     }
 
     .what-is-balance {
