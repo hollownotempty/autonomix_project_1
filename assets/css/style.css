@@ -101,6 +101,7 @@ section hr {
 .mixing-heading {
     text-align: center;
     padding-top: 20px;
+    text-shadow: none;
 }
 
 .flex-container-two {
@@ -283,6 +284,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .how-to-use-eq h2 {
     text-align: center;
     padding-top: 20px;
+    text-shadow: none;
 }
 
 .how-to-use-eq p {
@@ -350,6 +352,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .how-to-use-compression h2 {
     text-align: center;
     padding-top: 20px;
+    text-shadow: none;
 }
 
 .how-to-use-compression p {
@@ -407,6 +410,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .how-to-use-balance h2 {
     text-align: center;
     padding-top: 20px;
+    text-shadow: none;
 }
 
 .how-to-use-balance p {
