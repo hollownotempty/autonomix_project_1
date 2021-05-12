@@ -41,6 +41,8 @@ header {
     width: 100%;
 }
 
+header:scroll
+
 .learn-header {
     top: 0;
     left: 0;
@@ -265,14 +267,19 @@ footer a:hover {
 }
 
 /* contact page styles */
+
+.contact-heading {
+    text-align: center;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;
     width: 666px;
-    margin: 30px auto 0 auto;
+    margin: 20px auto 20px auto;
     padding: 15px;
     align-items: center;
-    min-height: calc(100vh - 260px);
+    min-height: calc(100vh - 320px);
 }
 
 input[type="text"], input[type="email"], textarea {
@@ -599,13 +606,8 @@ input[type="submit"]:hover, input[type="reset"]:hover {
         margin-left: -5px;
         background-color: var(--primary);
     }
-    
-    nav ul li:hover .learn-menu ul {
-        flex
-    }
 
     .learn-menu ul li {
-        margin-top: 5px;
         margin-top: 15px;
     }
 }
