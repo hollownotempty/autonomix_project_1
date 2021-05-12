@@ -74,12 +74,8 @@ nav a:hover {
 
 /* hero section stylings */
 .hero-section {
-    height: 400px;
     text-align: center;
-}
-
-.hero-section h2 {
-    margin-top: 200px;
+    padding: 200px;
 }
 
 section hr {
@@ -259,7 +255,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .what-is-eq {
     background-color: var(--primary);
     color: white;
-    height: 500px;
+    padding: 30px;
 }
 
 .eq-heading {
@@ -333,6 +329,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .compression-heading {
     text-align: center;
     padding-top: 20px;
+    font-size: 2rem;
 }
 
 .compression-info p {
@@ -359,6 +356,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     text-align: center;
     padding-top: 20px;
     text-shadow: none;
+    font-size: 2rem;
 }
 
 .how-to-use-compression p {
@@ -384,7 +382,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .what-is-balance {
     background-color: var(--primary);
     color: white;
-    height: 500px;
+    padding: 30px;
 }
 
 .balance-heading {
@@ -430,8 +428,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
     /* home page media queries */
     .what-is-mixing {
-        height: 800px;
-        text-align: center;
+         text-align: center;
     }
 
     .what-is-mixing p {
@@ -449,7 +446,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     }
 
     .what-is-balance {
-        height: 100%;
         text-align: center;
     }
 
