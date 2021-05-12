@@ -45,7 +45,7 @@ header {
     top: 0;
     left: 0;
     z-index: 9000;
-    position: sticky;
+    position: relative;
 }
 
 .flex-container {
@@ -516,7 +516,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 980px) {
     header {
         position: relative;
     }
@@ -538,10 +538,17 @@ input[type="submit"]:hover, input[type="reset"]:hover {
         display: none;
     }
 
+    .learn--buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .btn {
         font-size: 1.5rem;
         width: 260px;
         height: 260px;
+        margin: 20px;
     }
 
     .contact-form {
@@ -586,14 +593,19 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     .how-to-use-compression ul {
         text-align: left;
     }
-}
 
-@media screen and (max-width: 400px) {
-    .learn--buttons{
-        display: block;
+    nav ul li:hover .learn-menu {
+        margin-left: -5px;
+        margin-left: -5px;
+        background-color: var(--primary);
+    }
+    
+    nav ul li:hover .learn-menu ul {
+        flex
     }
 
-    .btn {
-        margin: 20px;
+    .learn-menu ul li {
+        margin-top: 5px;
+        margin-top: 15px;
     }
 }
