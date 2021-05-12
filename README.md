@@ -37,11 +37,11 @@ Users are looking to:
 
 ## User Stories
 
-- As a user, I want to learn basic mixing techniques, so I can learn how to mix my own music. 
-- As a user, I want to find specific techniques inside the site, so I can focus on the topics that I don’t understand as well as others.
-- As a user, I want video explanations/examples, so I can hear and see the techniques in action to assist my learning.
-- As a user, I want to be able to contact the site owners, so I can submit my mixes and ask for advice.
-- As a user, I want to be able to navigate the tutorial pages to progress through the steps.
+1. As a user, I want to learn basic mixing techniques, so I can learn how to mix my own music. 
+2. As a user, I want to find specific techniques inside the site, so I can focus on the topics that I don’t understand as well as others.
+3. As a user, I want video explanations/examples, so I can hear and see the techniques in action to assist my learning.
+4. As a user, I want to be able to contact the site owners, so I can submit my mixes and ask for advice.
+5. As a user, I want to be able to navigate the tutorial pages to progress through the steps.
 
 ## Site owner goals
 
