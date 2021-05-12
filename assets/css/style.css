@@ -72,6 +72,21 @@ nav a:hover {
     border-bottom: 1px white solid;
 }
 
+.learn-menu {
+    display: none;
+}
+
+nav ul li:hover .learn-menu {
+    background-color: var(--primary);
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+nav ul li:hover .learn-menu ul {
+    display: block;
+}
 
 /* hero section stylings */
 .hero-section {
