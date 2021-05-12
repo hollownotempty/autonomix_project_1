@@ -38,6 +38,7 @@ header {
     top: 0;
     left: 0;
     background-image: linear-gradient(to top, rgba(22, 43, 63, 0.6) 0%, rgba(22, 43, 63, 0.9) 100%);
+    z-index: 9000;
 }
 
 .flex-container {
@@ -74,8 +75,24 @@ nav a:hover {
 
 /* hero section stylings */
 .hero-section {
+    background: url(../images/mixing-audio.jpeg);
+    background-size: cover;
+    background-position: center;
     text-align: center;
-    padding: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.hero-text {
+    z-index: 1;
+}
+
+.hero-section h2 {
+    font-size: 2rem;
 }
 
 section hr {
@@ -84,6 +101,14 @@ section hr {
 }
 .hero-section p {
     margin-top: 5px;
+}
+
+.color--overlay {
+    width: 100%;
+    height: 100%;
+    background: var(--primary);
+    opacity: 0.7;
+    position: absolute;
 }
 
 
@@ -151,12 +176,12 @@ section hr {
 }
 
 .btn-one {
-    background-image: url(../images/anthony-roberts-82wJ10pX1Fw-unsplash.jpg);
+    background-image: url(../images/mixing-console.jpg);
     background-size: cover;
 }
 
 .btn-two {
-    background-image: url(../images/pro-q-3-screenshot.jpg);
+    background-image: url(../images/fabfilter-proq.jpg);
     background-size: 650px;
     background-position: center;
     margin-left: 70px;
@@ -164,7 +189,7 @@ section hr {
 }
 
 .btn-three {
-    background-image: url(../images/caught-in-joy--bgmGy8f1p0-unsplash.jpg);
+    background-image: url(../images/hardware-compressor.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -247,11 +272,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 }
 
 
-/* input {
-    margin-top: 10px;
-} */
 
-/* eq page stylings */
 .what-is-eq {
     background-color: var(--primary);
     color: white;
