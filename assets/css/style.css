@@ -437,7 +437,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     margin-right: 20px;
     text-align: justify;
     line-height: 2.2em;
-    max-height: 350px;
 }
 
 .balance-info img {
@@ -457,7 +456,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     text-align: center;
     padding-top: 20px;
     text-shadow: none;
-    font-size: 2rem;
 }
 
 .how-to-use-balance p {
@@ -494,7 +492,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
     .what-is-balance p {
         width: 70%;
-        margin: 0 auto 40px auto;
+        margin: 0 auto 0px auto;
     }
 
     .what-is-eq {
