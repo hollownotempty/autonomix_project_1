@@ -41,6 +41,13 @@ header {
     width: 100%;
 }
 
+.learn-header {
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    position: sticky;
+}
+
 .flex-container {
     display: flex;
     justify-content: space-around;
@@ -295,7 +302,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
 .eq-heading {
     text-align: center;
-    padding-top: 20px;
+    font-size: 2rem;
 }
 
 .eq-info p {
@@ -322,6 +329,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     text-align: center;
     padding-top: 20px;
     text-shadow: none;
+    font-size: 2rem;
 }
 
 .how-to-use-eq p {
@@ -363,7 +371,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
 .compression-heading {
     text-align: center;
-    padding-top: 20px;
     font-size: 2rem;
 }
 
@@ -422,7 +429,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
 .balance-heading {
     text-align: center;
-    padding-top: 20px;
+    font-size: 2rem;
 }
 
 .balance-info p {
@@ -450,6 +457,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     text-align: center;
     padding-top: 20px;
     text-shadow: none;
+    font-size: 2rem;
 }
 
 .how-to-use-balance p {
