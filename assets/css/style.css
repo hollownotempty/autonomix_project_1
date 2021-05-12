@@ -37,9 +37,7 @@ header {
     position: sticky;
     top: 0;
     left: 0;
-    
-    /* code to make content fade as it scrolls past the header */
-    background-image: linear-gradient(to top, rgba(22, 43, 63, 0) 0%, rgba(22, 43, 63, 1) 100%);
+    background-image: linear-gradient(to top, rgba(22, 43, 63, 0.6) 0%, rgba(22, 43, 63, 0.9) 100%);
 }
 
 .flex-container {
@@ -58,7 +56,9 @@ header {
 
 nav li {
     list-style: none;
-    padding-left: 10px;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 header a {
@@ -95,19 +95,19 @@ section hr {
 .what-is-mixing {
     background-color: var(--secondary);
     color: black;
-    height: 500px;
+    padding: 30px;
 }
 
 .mixing-heading {
     text-align: center;
-    padding-top: 20px;
     text-shadow: none;
+    font-size: 2.25rem;
 }
 
 .flex-container-two {
     display: flex;
     justify-content: center;
-    padding: 40px 0;
+    padding-top: 30px;
 }
 
 .mix-info p {
@@ -126,18 +126,20 @@ section hr {
 
 .learn-section {
     background-color: var(--primary);
-    height: 400px;
     text-align: center;
+    padding: 30px;
 }
 
 .learn-section h2 {
-    margin-top: 20px;
+    text-align: center;
+    text-shadow: none;
+    font-size: 2.25rem;
 }
 
 .learn--buttons {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    padding-top: 30px;
 }
 
 .btn {
@@ -147,8 +149,9 @@ section hr {
     height: 330px;
     background-color: var(--secondary);
     border-radius: 50%;
-    line-height: 330px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-one {
@@ -190,6 +193,7 @@ footer {
 footer a {
     color: var(--secondary);
     text-decoration: none;
+    padding: 20px;
 }
 
 footer a:hover {
@@ -437,17 +441,9 @@ input[type="submit"]:hover, input[type="reset"]:hover {
         display: block;
     }
 
-    .learn-section {
-        height: 100%;
-    }
-    
-    .learn--buttons {
-        display: block;
-    }
-
     .btn {
-        width: 100px;
-        margin: 10px auto;
+        min-width: 260px;
+        height: 260px;
     }
 
     .what-is-balance {
@@ -505,9 +501,8 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
     .btn {
         font-size: 1.5rem;
-        min-width: 200px;
-        height: 200px;
-        line-height: 200px;
+        width: 260px;
+        height: 260px;
     }
 
     .contact-form {
@@ -551,5 +546,15 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     
     .how-to-use-compression ul {
         text-align: left;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .learn--buttons{
+        display: block;
+    }
+
+    .btn {
+        margin: 20px;
     }
 }
