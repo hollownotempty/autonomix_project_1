@@ -34,11 +34,11 @@ h1, h2, h3, h4, h5, h6 {
  
 /* header stylings */
 header {
-    position: sticky;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to top, rgba(22, 43, 63, 0.6) 0%, rgba(22, 43, 63, 0.9) 100%);
     z-index: 9000;
+    position: fixed;
+    width: 100%;
 }
 
 .flex-container {
@@ -77,7 +77,6 @@ nav a:hover {
 }
 
 nav ul li:hover .learn-menu {
-    background-color: var(--primary);
     display: block;
     position: absolute;
     margin-top: 15px;
