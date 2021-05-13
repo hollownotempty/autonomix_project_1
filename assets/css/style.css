@@ -41,12 +41,7 @@ header {
     width: 100%;
 }
 
-header:scroll
-
 .learn-header {
-    top: 0;
-    left: 0;
-    z-index: 9000;
     position: relative;
 }
 

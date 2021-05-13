@@ -22,6 +22,20 @@ The following are the steps I took to make sure the user stories listed in the [
 
 # Bugs
 
+1. Content on the learn pages would clip upwards into the header due to the Fixed position from the css. 
+![Clipped-content](screenshots/header_clipping.png) 
+The solution for this was to give the headers in the learn pages a utility class with which the position is set to Relative.
+![solution](screenshots/clipped_header_solution.png)
+
+You can see below that this fixed the issue easily. 
+![solved](screenshots/header_solved.png)
+
+2. The footer on the contact page was far too high (right underneath the form). 
+![footer-bug](screenshots/footer_too_high.png)
+
+To solve this, a min-height property was added to the form with a value of calc(100vh - 320px) to create a gap between the form and the footer. 
+
+![footer-solved](screenshots/footer_solved.png)
 
 
 # Browsers
