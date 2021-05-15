@@ -51,3 +51,5 @@ To solve this, a min-height property was added to the form with a value of calc(
 - ACER Computer monitor
 - iPhone 11
 - Macbook Pro 2018
+- iPad 2
+- iPad Mini

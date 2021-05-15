@@ -37,7 +37,7 @@ header {
     top: 0;
     left: 0;
     z-index: 9000;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -134,7 +134,7 @@ section hr {
 .what-is-mixing {
     background-color: var(--secondary);
     color: black;
-    padding: 30px;
+    padding: 48px;
 }
 
 .mixing-heading {
@@ -146,7 +146,7 @@ section hr {
 .flex-container-two {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 45px;
 }
 
 .mix-info p {
@@ -157,16 +157,16 @@ section hr {
 }
 
 .mix-info img {
-    margin-left: 20px;
+    margin-left: 74px;
     width: 500px;
     border-radius: 30px;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
 }
 
 .learn-section {
-    background-color: var(--primary);
+    background-color: #0a3047;
     text-align: center;
-    padding: 30px;
+    padding: 48px;
 }
 
 .learn-section h2 {
@@ -218,7 +218,7 @@ section hr {
 }
 
 .btn a:hover {
-    border-bottom: 2px white solid;
+    color: #63a1c7;
 }
 
 footer {
@@ -245,6 +245,7 @@ footer a:hover {
     display: flex;
     justify-content: space-around;
     padding: 10px 10px;
+    background-color: #0a3047;
 }
 
 .page-navigation a {
@@ -265,6 +266,11 @@ footer a:hover {
 
 .contact-heading {
     text-align: center;
+}
+
+.form-wrapper {
+    background-color: #0a3047;
+    padding: 48px;
 }
 
 .contact-form {
@@ -299,7 +305,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .what-is-eq {
     background-color: var(--primary);
     color: white;
-    padding: 30px;
+    padding: 48px;
 }
 
 .eq-heading {
@@ -325,18 +331,19 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     background-color: var(--secondary);
     color: black;
     line-height: 2.2em;
+    align-items: center;
+    padding: 48px;
 }
 
 .how-to-use-eq h2 {
     text-align: center;
-    padding-top: 20px;
     text-shadow: none;
     font-size: 2rem;
 }
 
 .how-to-use-eq p {
     width: 70%;
-    margin: 20px auto;
+    margin: 45px auto 0 auto;
     text-align: justify;
 }
 
@@ -356,7 +363,8 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 }
 
 .video-section {
-    padding-top: 20px;
+    padding: 48px;
+    background-color: #0a3047;
 }
 
 .video-section iframe {
@@ -394,19 +402,18 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     background-color: var(--secondary);
     color: black;
     line-height: 2.2em;
+    padding: 48px;
 }
 
 .how-to-use-compression h2 {
     text-align: center;
-    padding-top: 20px;
     text-shadow: none;
     font-size: 2rem;
 }
 
 .how-to-use-compression p {
     width: 70%;
-    padding: 20px 0;
-    margin: 0 auto;
+    margin: 45px auto 0 auto;
     text-align: justify;
 }
 
@@ -426,7 +433,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 .what-is-balance {
     background-color: var(--primary);
     color: white;
-    padding: 30px;
+    padding: 48px;
 }
 
 .balance-heading {
@@ -442,9 +449,9 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 }
 
 .balance-info img {
-    margin-left: 20px;
+    margin-left: 74px;
     width: 500px;
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
 }
 
 .how-to-use-balance {
@@ -452,17 +459,19 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     background-color: var(--secondary);
     color: black;
     line-height: 2.2em;
+    padding: 48px;
 }
 
 .how-to-use-balance h2 {
     text-align: center;
     padding-top: 20px;
     text-shadow: none;
+    font-size: 2rem;
 }
 
 .how-to-use-balance p {
     width: 70%;
-    padding: 20px 0;
+    padding-top: 45px;
     margin: 0 auto;
     text-align: justify;
 }
