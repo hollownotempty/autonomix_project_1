@@ -41,7 +41,7 @@ header {
     width: 100%;
 }
 
-.learn-header {
+.relative-header {
     position: relative;
 }
 
@@ -286,21 +286,26 @@ footer a:hover {
 input[type="text"], input[type="email"], textarea {
     margin: 5px 0;
     width: 100%;
+    padding: 6px;
 }
 
 input[type="submit"], input[type="reset"] {
-    width: 33%;
-    margin: 5px 0;
+    margin: 5px 15px;
     border: none;
     border-radius: 15px;
+    padding: 9px;
+    box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+
 }
 
 input[type="submit"]:hover, input[type="reset"]:hover {
-    background-color: var(--secondary);
+    opacity: 0.8;
     cursor: pointer;
 }
 
-
+.submit-reset {
+    display: flex;
+}
 
 .what-is-eq {
     background-color: var(--primary);
