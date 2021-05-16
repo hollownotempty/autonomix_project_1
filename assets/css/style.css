@@ -192,12 +192,12 @@ section hr {
 }
 
 .btn-one {
-    background-image: url(../images/mixing-console.jpg);
+    background-image: url(../images/mixing-console.png);
     background-size: cover;
 }
 
 .btn-two {
-    background-image: url(../images/fabfilter-proq.jpg);
+    background-image: url(../images/fabfilter-proq.png);
     background-size: 650px;
     background-position: center;
     margin-left: 70px;
@@ -205,7 +205,7 @@ section hr {
 }
 
 .btn-three {
-    background-image: url(../images/hardware-compressor.jpg);
+    background-image: url(../images/hardware-compressor.png);
     background-size: cover;
     background-position: center;
 }
@@ -510,6 +510,26 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     .section-heading {
         font-size: 1.8rem;
     }
+
+    .mix-info img {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .balance-info img {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .eq-info img {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .compression-info img {
+        margin-left: 0;
+        margin-top: 15px;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -548,7 +568,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     }
 
     .contact-form {
-        width: 80%;
+        width: 100%;
     }
 
     .video-section iframe {
