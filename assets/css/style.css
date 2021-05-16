@@ -91,6 +91,10 @@ nav ul li:hover .learn-menu ul {
     display: block;
 }
 
+.relative-header nav ul li:hover .learn-menu {
+    background-color: var(--primary);
+}
+
 /* hero section stylings */
 .hero-section {
     background: url(../images/mixing-audio.jpeg);
@@ -137,7 +141,7 @@ section hr {
     padding: 48px;
 }
 
-.mixing-heading {
+.section-heading {
     text-align: center;
     text-shadow: none;
     font-size: 2.25rem;
@@ -167,12 +171,6 @@ section hr {
     background-color: #0a3047;
     text-align: center;
     padding: 48px;
-}
-
-.learn-section h2 {
-    text-align: center;
-    text-shadow: none;
-    font-size: 2.25rem;
 }
 
 .learn--buttons {
@@ -320,11 +318,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     padding: 48px;
 }
 
-.eq-heading {
-    text-align: center;
-    font-size: 2rem;
-}
-
 .eq-info p {
     width: 500px;
     margin-right: 20px;
@@ -347,20 +340,14 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     padding: 48px;
 }
 
-.how-to-use-eq h2 {
-    text-align: center;
-    text-shadow: none;
-    font-size: 2rem;
-}
-
 .how-to-use-eq p {
-    width: 70%;
+    width: 100%;
     margin: 45px auto 0 auto;
     text-align: justify;
 }
 
 .how-to-use-eq ul {
-    width: 70%;
+    width: 100%;
     padding: 20px 0;
     margin: 0 auto;
     text-align: justify;
@@ -417,20 +404,14 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     padding: 48px;
 }
 
-.how-to-use-compression h2 {
-    text-align: center;
-    text-shadow: none;
-    font-size: 2rem;
-}
-
 .how-to-use-compression p {
-    width: 70%;
+    width: 100%;
     margin: 45px auto 0 auto;
     text-align: justify;
 }
 
 .how-to-use-compression ul {
-    width: 70%;
+    width: 100%;
     padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
@@ -446,11 +427,6 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     background-color: var(--primary);
     color: white;
     padding: 48px;
-}
-
-.balance-heading {
-    text-align: center;
-    font-size: 2rem;
 }
 
 .balance-info p {
@@ -474,15 +450,8 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     padding: 48px;
 }
 
-.how-to-use-balance h2 {
-    text-align: center;
-    padding-top: 20px;
-    text-shadow: none;
-    font-size: 2rem;
-}
-
 .how-to-use-balance p {
-    width: 70%;
+    width: 100%;
     padding-top: 45px;
     margin: 0 auto;
     text-align: justify;
@@ -496,7 +465,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     }
 
     .what-is-mixing p {
-        width: 70%;
+        width: 100%;
         margin: 0 auto 40px auto;
     }
     
@@ -514,7 +483,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     }
 
     .what-is-balance p {
-        width: 70%;
+        width: 100%;
         margin: 0 auto 0px auto;
     }
 
@@ -524,7 +493,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     }
 
     .what-is-eq p {
-        width: 70%;
+        width: 100%;
         margin: 0 auto 0 auto;
     }
 
@@ -536,6 +505,10 @@ input[type="submit"]:hover, input[type="reset"]:hover {
     .what-is-compression p {
         width: 70%;
         margin: 0 auto 40px auto;
+    }
+
+    .section-heading {
+        font-size: 1.8rem;
     }
 }
 
