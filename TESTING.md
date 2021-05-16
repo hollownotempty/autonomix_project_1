@@ -15,15 +15,15 @@ The following are the steps I took to make sure the user stories listed in the [
 *Numbers align with their respective User Story*
 
 1. From the home page, I scroll down to the learn section (or hover over the learn nav link) and click on the topic I want to read about.
-    ![step_1](assets/screenshots/user_story_1/step_1.png)
-    ![step_2](assets/screenshots/user_story_1/step_2.png)
+    ![step_1](assets/screenshots/user_story_one/step_one.png)
+    ![step_2](assets/screenshots/user_story_one/step_two.png)
 2. If I want to specifically learn about Balance, EQ or Compression I go to the previously mentioned learn sections and click on the specific topic I want. 
 3. After reading about the topic I have clicked on, I can scroll to the bottom of the topic page and watch the linked video on the topic. 
 4. To contact the site, I go to the navigation bar and click contact, fill out the form that appears on screen and hit submit. 
-    ![step_1](assets/screenshots/user_story_4/step_1.png)
-    ![step_2](assets/screenshots/user_story_4/step_2.png)
+    ![step_1](assets/screenshots/user_story_four/step_one.png)
+    ![step_2](assets/screenshots/user_story_four/step_two.png)
 5. If I am on a tutorial page and decide I want to progress forward or back to a different topic, I can click the arrows at the bottom of the page to navigate to the desired page.
-    ![step_1](assets/screenshots/user_story_5/step_1.png)
+    ![step_1](assets/screenshots/user_story_five/step_one.png)
 
 # Bugs
 
