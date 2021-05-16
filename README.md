@@ -1,7 +1,7 @@
 
 # Autonomix. 
 
-![Responsive](screenshots/responsive.png)
+![Responsive](assets/screenshots/responsive_layout.png)
 
 # Table Of Contents
 
@@ -75,18 +75,20 @@ The wireframes for Autonomix can be viewed [here](https://www.dropbox.com/s/2ybo
 - Brief intro to mixing as a concept
 - Large buttons at the bottom of the page to navigate to learning pages
 
-![Home Page](screenshots/home_page.png)
+![Home Page](assets/screenshots/home_page.png)
 
 ### Learning Pages:
 - Short and concise explanations of techniques.
 - Video explanations.
 
-![Learning Pages](screenshots/learning_page.png)
+![balance](assets/screenshots/balance_page.png)
+![eq](assets/screenshots/eq_page.png)
+![compression](assets/screenshots/compression_page.png)
 
 ### Contact Page:
 - Form to get in contact with owners about any queries
 
-![Contact Page](screenshots/contact_page.png)
+![Contact Page](assets/screenshots/contact_page.png)
 
 ### Future Features:
 - Mix submission form to request feedback
